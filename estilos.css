@@ -110,21 +110,7 @@
 
 }
 
-.timer::before {
-    content: ""; /* Asegura que el pseudo-elemento ::before exista para aplicar el fondo */
-    background-image: url('tu-imagen.jpg'); /* Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen */
-    background-size: 110% 110%; /* Aumenta el tamaño del fondo en un 10% */
-    background-position: center; /* Ajusta la posición del fondo al centro */
-    background-repeat: no-repeat; /* Evita la repetición del fondo */
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1; /* Coloca el fondo detrás de otros elementos en el contenedor */
-    transform: scale(1.1); /* Aplica un efecto de zoom del 10% usando transform */
-}
+
 
 .contenido{
     display: flex;
@@ -152,7 +138,7 @@
 .container-hora,
 .container-minutos,
 .container-segundos {
-    width: 40%;
+    width: 20%;
     text-align: center;
 }
 

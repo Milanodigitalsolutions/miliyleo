@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.preloader-gif {
+    height: 80%;
+}
+
+.content {
+    display: none;
+}
+
+.portada {
+    height: 100vh;
+    background-image: url(Imagenes/portada-background.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.portada-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.frase,
+.fecha{
+    font-family: 'Roboto Serif', serif;
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 4%;
+}
+
+.frase{
+    width: 50%;
+}
+
+.nombre{
+    font-family: 'Waterfall', cursive;
+    font-size: 6rem;
+}
+
+#nos-casamos{
+    height: 40%;
+    width: 40%;
+}
+
+.contador {
+    margin-top: -6.5%;
+    background-image: url(Imagenes/second-background.png);
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrases{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.timer {
+    background-image: url(Imagenes/time-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.falta{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.container-horario{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 3% 0;
+    text-align: center;
+}
+
+.container-dia,
+.container-hora,
+.container-minutos,
+.container-segundos {
+    width: 40%;
+    text-align: center;
+}
+
+.dias, .horas, .minutos, .segundos{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#heart-icon{
+    fill: gray;
+    width: 7%;
+    padding-right: 2%;
+}
+
+.bottom-timer-prhase{
+    font-family: 'Roboto Serif', serif;
+    font-size: 2.5rem;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.cookie-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cookie{
+    font-family: 'Cookie', cursive;
+    font-size: 4rem;
+}
+
+.lugares{
+    margin-top: 5%;
+    background-image: url(Imagenes/section-lugares.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.divisor-mq{
+    display: none;
+}
+
+.boot-title{
+    font-family: 'Waterfall', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+
+#columnas-lugares{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.api-change{
+    color: white;
+}
+
+.button-lugares{
+    background-color: rgba(0, 0, 0, 0.25);
+    border: none;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    padding: 7px 35px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+.button-lugares:hover{
+    background-color: rgba(0, 0, 0, 0.45);
+    text-decoration: none;
+}
+
+.button-lugares:active{
+    background-color: rgba(0, 0, 0, 0.65);
+    text-decoration: none;
+}
+
+.button-lugares-a{
+    color: white;
+    text-decoration: none;
+}
+
+.lugares p{
+    margin-bottom: 5px;
+}
+
+.lugares h3{
+    margin-bottom: 0px;
+    margin-top: 22px;
+}
+
+.asistencia{
+    align-self: center;
+    vertical-align:middle;
+    font-size: 1rem;
+    margin: 50px;
+    color: gray;
+}
+
+.warning{
+    width: 50%;
+    background-image: url(Imagenes/warning.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 6%;
+}
+
+.warning-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-top: 3%;
+}
+
+.warning-description{
+    margin-top: 1%;
+}
+
+.button-warning{
+    margin-top: 2%;
+    margin-bottom: 6%;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 20px;
+}
+
+
+.background-fiesta{
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.fiesta{
+    background-color: white;
+    padding-bottom: 8%;
+}
+
+.fiesta-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiesta-titulo{
+    font-size: 10rem;
+    margin-bottom: 2%;
+    font-family: 'Waterfall', cursive;
+}
+
+.fiesta-descripcion{
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+.container-fiesta{
+    background-color: rgba(246, 246, 246, 1);
+    display: flex;
+    border: rgb(180, 180, 180);
+    border-style: solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    border-radius: 10%;
+    width: 90%;
+    flex: 1;
+}
+
+.title{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.container-fiesta p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#button-vermas{
+    margin-top: 6%;
+}
+
+.descripcion-footer{
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    padding: 7% 5%;
+    letter-spacing: 1.2px;
+}
+
+#footer-img{
+    width: 35%;
+    margin-top: -20%;
+}
+

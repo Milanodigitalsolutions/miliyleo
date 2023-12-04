@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(Imagenes/fondo\ blanco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+h1,h2{
+    font-family: 'Dancing Script', cursive, 'Roboto', sans-serif;
+}
+
+.portada{
+    background-image: url(Imagenes/fondo\ hojas.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.portada-container{
+    margin-top: auto;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.frase{
+    color: grey;
+    font-size: 1.2em;
+}
+
+.nombre{
+    font-size: 6rem;
+}
+
+.contador {
+    background-image: url(Imagenes/timer-fondo-background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    background-image: url(Imagenes/timer-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+}
+
+.falta{
+    color: gray;
+    font-size: 3.5rem;
+    padding-right: 2%;
+}
+
+.container-horario{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 3% 0;
+    text-align: center;
+}
+
+.container-dia,
+.container-hora,
+.container-minutos,
+.container-segundos {
+    width: 40%;
+    text-align: center;
+}
+
+.dias, .horas, .minutos, .segundos{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#heart-icon{
+    fill: gray;
+    width: 7%;
+    padding-right: 2%;
+}
+
+.lugares{
+    background-image: url(Imagenes/section-lugares.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+#columnas-lugares{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.api-change{
+    color: white;
+}
+
+.button-lugares{
+    background-color: #767B35;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+.button-lugares:hover{
+    background-color: #65692d;
+    text-decoration: none;
+}
+
+.button-lugares:active{
+    background-color: #45471f;
+    text-decoration: none;
+}
+
+.button-lugares-a{
+    color: white;
+    text-decoration: none;
+}
+
+.lugares p{
+    margin-bottom: 5px;
+}
+
+.lugares h3{
+    margin-bottom: 0px;
+    margin-top: 22px;
+}
+
+.asistencia{
+    align-self: center;
+    vertical-align:middle;
+    font-size: 1rem;
+    margin: 50px;
+    color: gray;
+}
+
+.background-fiesta{
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.fiesta{
+    background-color: white;
+    padding-bottom: 8%;
+}
+
+.fiesta-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiesta-titulo{
+    font-size: 3.5rem;
+    margin-bottom: 2%;
+}
+
+.fiesta-descripcion{
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+.container-fiesta{
+    background-color: rgba(128, 128, 128, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    border-radius: 10%;
+    width: 90%;
+    flex: 1;
+}
+
+.title{
+    padding-top: 4%;
+}
+
+.container-fiesta p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#button-vermas{
+    margin-top: 6%;
+}
+
+.regalos-sec{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-regalos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    margin-bottom: 10%;
+}
+
+.container-regalos img{
+    max-width: 20%;
+}
+
+.regalos-titulo{
+    font-size: 3.5rem;
+    margin-bottom: 2%;
+}
+
+.descripcion-regalos{
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+}
+
+#button-regalos{
+    margin-top: 5%  ;
+}
+
+.foot{
+    background-color: #767B35;
+}
+
+.descripcion-footer{
+    margin: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    padding: 7% 5%;
+    letter-spacing: 1.4px;
+}

@@ -34,6 +34,7 @@
         font-size: 1.2rem;
         text-align: center;
         margin-top: -15%;
+        margin-bottom: 15%;
     }
 
     .nombre{
@@ -62,10 +63,10 @@
     }
 
     .timer {
-        padding-top: 20%;
-        width: 100%;
-        height: 100%;
+        height: 50vh;
         background-size: contain;
+        padding: 0;
+        margin: 0;
     }
 
     .contenido{

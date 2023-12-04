@@ -70,21 +70,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        vertical-align: middle;
-        text-align: center; /* Center text content */
+        text-align: center;
     }
+
 
     .contenido {
         display: flex;
         flex-direction: column;
-        margin: 0%;
-        padding: 0% 20%;
+        margin: 0;
+        padding: 20px;
         width: 100%;
         text-align: center;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
-        vertical-align: middle;
     }
 
     .falta{

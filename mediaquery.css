@@ -1,4 +1,9 @@
 @media (max-width: 1000px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
     .preloader {
         position: fixed;
         top: 0;

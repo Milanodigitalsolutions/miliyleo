@@ -70,10 +70,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center; /* Add text-align property */
+        vertical-align: middle;
+        text-align: center; /* Center text content */
     }
 
-    .contenido{
+    .contenido {
         display: flex;
         flex-direction: column;
         margin: 0%;
@@ -96,10 +97,10 @@
     .container-horario {
         width: 70%;
         display: flex;
-        justify-content: space-around; /* Adjust spacing between elements */
+        justify-content: space-around;
         margin: 3% 0;
         text-align: center;
-        align-items: center; /* Center items horizontally */
+        align-items: center;
     }
     
     
